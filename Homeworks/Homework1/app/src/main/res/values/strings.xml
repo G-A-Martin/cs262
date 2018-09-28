@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Homework1</string>
+    <string name="operator">Operator</string>
+    <string name="stringBttn">Calculate</string>
+    <string name="calcAnswer">0</string>
+
+    <string-array name="spinnerOptions">
+        <item>+</item>
+        <item>-</item>
+        <item>/</item>
+        <item>x</item>
+    </string-array>
+</resources>
