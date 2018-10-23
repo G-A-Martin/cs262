@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+        android:id="@+id/settingText"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:text="Enable Hacker Settings"
+        android:textSize="20dp"
+         />
+
+        <Switch
+            android:id="@+id/switch1"
+            android:layout_width="128dp"
+            android:layout_height="wrap_content"
+            android:layout_alignRight="@id/settingText"
+            tools:layout_toRightOf="@id/settingText" />
+    </LinearLayout>
+</RelativeLayout>
