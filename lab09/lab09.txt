@@ -1,0 +1,25 @@
+* How many API endpoints does this application support and where are they implemented?
+   * This application supports an infinite amount of endpoints, since there is no limit to the amount of players you can add. These endpoints are implemented in PlayerResource.java.
+* PlayerResource.java
+   * What is the Java-based technology used to access data from a database?
+       * The Java-based technology used to access data from a database is a JDBC statement.
+   * Compare and contrast the following:
+       1. SQL query statements vs. JDBC statement objects
+           1.  SQL query statements and JDBC statement objects are similar in that both are used to access the database. However, an SQL query statement is universal and independent while JDBC statement objects use SQL to execute accessing the data. JDBC statement objects also have result sets.
+       2. SQL relations vs. JDBC result sets vs. List<Player>
+           1. SQL relations are tables with tuples and attributes invented by E.F. Codd,  while JDBC result sets are an object that contains the data returned from the query, and  List<PLayer> is a list of player objects populated with data.
+   * Under what circumstances would the function getValueStringOrNull() be used?
+       * getValueStringOrNull() would be used to convert a player string into an SQL ready string if it exists, otherwise it returns SQL ready NULL.
+
+
+
+Player.java
+    i. What purpose does this Player DAO serve?
+- The player DAO servers to let the user get and set information regarding the player Object.  
+It has methods that let you manipulate and grab any information in an object oriented way.
+
+    ii. How does it compare with the Player table?
+-    You can't create functions in a database. You can create scripts with that contain functions involved with stored procedures in SQL, 
+		but it wouldn't be the same as in Player.java. In Player.java you can create a player object that lets you set and get data about the object. 
+		In the player table there are players but the player objects themselves don't let you set and get data. 
+		Player table doesn't provide ways to access the objects in an object oriented way the same way Java would.
