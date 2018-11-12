@@ -1,0 +1,13 @@
+Team Review 3 
+
+
+The A team has 7 commits the week of October 7 and 14, but only has 2 commits for the 21, and the 28. After that the project materials repo has absolutely nothing. This shows that they either have everything they need already in there, or they haven’t been sharing their materials. 
+
+
+Their database seemed to be well formulated from my understanding. It wasn’t in the project materials repo, but instead in the data repo. They had 3 tables: the Employee table, the Project table, and the Time table. Since their goal is to create a working timer, this seems to be all they really need. The project table stores names, ids, and manager info so that they can store the time for projects that have managers. The employees have names, and Ids but that’s it. I’m not sure how it will all be used, but I feel like that one could use a bit more information. The Time table has an ID, a starttime, and endtime, an employeeID, and a projectID. All of these seem to be well made and use proper foreign key constraints. 
+
+
+They have actually been really active on Github with their code updating. According to their stats, they’ve been adding more recently than they ever had up until this point. After testing their code, their app still works and so does their database on the terminal. 
+
+
+Their presentation was effective in my opinion. While I think they suffered from a few fatal flaws of presentation giving, like not giving direct eye contact to the crowd and speaking from behind the monitor which made it difficult to understand them and who was actually on the team, they still did a good job overall. They gave the vision of their app, the reason it was built, how it would be used, and they even specified a niche market for it to appeal to. While they still could have done better with basic presentation giving, they did a good job in demonstrating the purpose and reason for their app’s existence. 

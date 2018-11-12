@@ -1,0 +1,21 @@
+Gavin Martin
+CS262
+Homework3  
+
+
+Homework3 Answers: 
+
+
+a. Is the service RESTful? If not, why not? If so, what key features make it RESTful.
+Yes It is restful. Some key properties for something RESTUL is it that Use HTTP methods explicitly, its stateless, has structure-like URIs, and transfers XML and JSON or both. The web service uses a server to client structure. It uses HTTP methods to send data and instead of storing a state. Because of all of these, it is RESTful. 
+
+ 
+b. What endpoints implement actions that are idempotent? nullipotent?
+Get, Put, and Delete are all Idempotent. They are idempotent because no matter how many times you call any of them repeatedly, it will not change it after the first time.  Get is the only nullipotent, because it will not actually affect the data. It only queries/retrieves it. Within the database, there is the endpoint player which is used in post and in get. In post it isn’t idempotent or nullipotent. In get, it is idempotent, and nullipotent. Player/{id} is used for get, put and delete, which make it idempotent, lastly its also nullipotent for the player/id get method only. 
+
+
+c. What evidence, if any, do you see of the commonly-cited impedance mismatch problem in object-relational information systems?
+Problems of impedence mismatch occur when the database management system has problems working with object oriented programs. This could be the result of SQL not recognizing some things meant for object oriented languages like encapsulation, private/public variables, different data types, parent/child relationships, etc. As someone from my team mentioned the PlayerResource file manages the Player.java file as an object. This connection uses HTTP methods sent back and forth (because its RESTUL) but the HTTP methods don’t take advantage of all of the player methods. The player class is limited to what can be done on the SQL side of things. If some crazy language complexity isn’t transferrable, some object oriented abilities will be lost. 
+
+d. Would the web service built in the lab be susceptible to SQL-injection attacks?
+Yes. SQL injection happens when the user inputs SQL into the entry which ends up running as SQL code in the backend. This is easily preventable by watching and setting up statements to defend against certain types of user responses. After looking through the Java code, there isn’t anything to defend against this leaving it completely vulnerable. So yes it is susceptible, but completely preventable.
