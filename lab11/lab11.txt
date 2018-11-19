@@ -1,0 +1,75 @@
+
+Changes made: 
+
+Added JavaDoc to the MainAcitivty Classes as the Proffessor Specified in Lab02
+
+
+Changes made to Homework 1
+
+Deleted two constraints to items with ids that do not exist in a warning titled: reference to an unknown id. 
+
+Added Android hints to both of the text-edits. 
+
+Obsolete Grade Dependency: I chose to ignore this since I didn't really need to update and it wasn't really an issue. 
+
+I changed dp in textSizes to sp. 
+
+String literal can't be translated. I added String.format() to fix this issue. 
+
+App isn't indexable by google search. I left this as is because its a calculator app and doens't really need google search. 
+
+I ignored missing autofillhints because I added hints and I feel that is enough. 
+
+I made all the mainactivity variables that could be private and made them private. 
+
+I deleted unused variable declaration. 
+
+Deleted unused Import.
+
+I ignored String.toFromat error because adding it was recommended and when I remove it it recommends I readd it so I will leave it there. 
+
+I changed a redundant decleration of EditText in several locations. 
+
+
+I chose not ignore an on-purpose typo. I prefer to abreviate button as bttn. 
+
+Vander was labeled a mis-spelling but that would require you to change your name so I decided to wait until after 
+I met with you about potential name changes first. 
+
+
+
+Homework 2 Changes: 
+
+Added android hint
+
+changed outdated parent
+
+I ignored an error that said there was a new version of gradle available. That wasn't relevant to me. 
+
+It asked me to change margin_layoutRight to margin_layoutEnd but it gave me a warning to revert back to the original so I ignored it
+
+I changed an dp text size to an sp text size
+
+I created a string resource for a hardcoded string
+
+I deleted an used dimension
+
+I deleted an usused preference xml
+
+It got mad at me for not making it google search indexable. I decided to ignore this since it wouldn't really be nessescary to google search it. 
+
+It asked for autofill but I already had a hint so I ignored it. 
+
+The analyzer said my loadmanager was deprecated. I ignored this because it would involve re-doing my entire project. 
+
+I ignored the can be package private. It wasn't nessescary. 
+
+Deleted a class that was causing issue.
+
+I deleted unused imports. 
+
+It said stringbuffer could be declared as stringbuilder but that caused errrors so I ignored it. 
+
+There were four instances that they said a class could cause Exceptions but I let it stay because that was my intention. 
+
+I deleted redundant decleration of names. 
