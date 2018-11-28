@@ -1,0 +1,13 @@
+
+
+
+Gavin Martin Reviewing Team A: Time Tracker
+
+
+Their user test was suprisingly well developed. They wrote a well documented script, planned it out well in a classroom, and were very proffessional. 
+I will be honest, I had low expectatinos going in, but they had me test 10 minutes of features within their app. On the script they told me what features to 
+test in what order. Some where hard to do, others were easy, but overall I felt that the user test they designed gave them good feedback. They even found a 
+breaking bug that broke the app when you deleted a timer as it was running. Overall, I felt respected, and I felt like I was contributing. 
+
+They have apparently pushed more code into their repo this week than they had all year. This was probably their most productive week as far as building the
+app goes. 
